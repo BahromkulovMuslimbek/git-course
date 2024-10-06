@@ -1,5 +1,7 @@
 Репозиторий (repository) — это место для хранения и управления кодом
 
+'''Начало'''
+
 git --version
 показывает версию
 git --help
@@ -14,6 +16,10 @@ git-init
 cd .git <-- это папка
 это папка создается после команды git init
 там будет хранится вся техническая информатция контроля версий (git)
+
+
+'''git status, git add, git rm, git restore'''
+
 git status
 показывает что сейчас происходит (статус), ОЧЕНЬ ЧАСТО ИСПОЛЬЗУЕТСЯ
 
@@ -78,3 +84,35 @@ Changes not staged for commit:
 
 здесь говорится что мы добавили файлы, однако были внесены определенные изменения,
 и попазывает в каком файле, а здесь именно в index.html
+
+git restore <-— восстановление файлов рабочего дерева
+
+пишем git add . и смотрим status
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   instrucktion.txt
+        new file:   script.js
+
+
+git commit -m "" <-- это фикс
+(ветка - master)
+ 
+[master (root-commit) b85c817] first commit  
+ 3 files changed, 100 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 instrucktion.txt
+ create mode 100644 script.js
+
+b85c817 - хэш
+3 files changed - 3 файла изменено
+100 insertions(+) - 100 вставок
+
+""".gitignore"""
+/logs  <-- игнорирует папку логс
+errors.txt  <-- игнорирует файл логс
