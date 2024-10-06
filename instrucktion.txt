@@ -141,3 +141,5 @@ Anton
 
 git config --global user.email  <-- чтобы увидеть свой email
 muslimbahromkulov145@gmail.com
+
+git clone https:...  <-- чтобы копировать репазиторий из гитхаба
