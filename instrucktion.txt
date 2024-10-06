@@ -132,3 +132,12 @@ Switched to a new branch 'new'
 ''' Файлы новых веток будут видны только когда вних заходят '''
 
 git merge readme  <-- соединяет одну ветку с другим
+
+git config --global user.name  <-- что-бы увидеть свой username для гита
+BahromkulovMuslimbek
+
+git config --global user.name "Anton"  <-- что-бы поменять свой username
+Anton
+
+git config --global user.email  <-- чтобы увидеть свой email
+muslimbahromkulov145@gmail.com
