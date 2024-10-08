@@ -126,20 +126,22 @@ git branch -D main  <-- удаление ветки
 git checkout readme  <-- переключится на ветку
 Switched to branch 'readme' -- мы переключились на эту ветку
 
-git checkout -b new  <-- что-бы создать ветку и зайти в нее сразу
+git checkout -b new  <-- чтобы создать ветку и зайти в нее сразу
 Switched to a new branch 'new'
 
 ''' Файлы новых веток будут видны только когда вних заходят '''
 
 git merge readme  <-- соединяет одну ветку с другим
 
-git config --global user.name  <-- что-бы увидеть свой username для гита
+git config --global user.name  <-- чтобы увидеть свой username для гита
 BahromkulovMuslimbek
 
-git config --global user.name "Anton"  <-- что-бы поменять свой username
+git config --global user.name "Anton"  <-- чтобы поменять свой username
 Anton
 
 git config --global user.email  <-- чтобы увидеть свой email
 muslimbahromkulov145@gmail.com
 
 git clone https:...  <-- чтобы копировать репазиторий из гитхаба
+
+git pull  <-- чтобы забрать все последние изменения (из гитхаба)
